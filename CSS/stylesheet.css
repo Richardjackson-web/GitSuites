@@ -40,3 +40,6 @@ body {
   form{
     margin-bottom: 3rem;
   }
+  .foot{
+    text-decoration: none;
+  }
