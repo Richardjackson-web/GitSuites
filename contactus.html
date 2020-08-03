@@ -19,7 +19,7 @@
    
   </head>
 
-  <body>
+  <body style="background-color: black;"> 
 
     <nav class="navbar navbar-inverse navbar-fixed-top " style="background-color: rgb(34,41,65);"  >
       <div class="container-fluid">
@@ -38,6 +38,7 @@
         <div id="navbar" class="navbar-collapse collapse">
 
          <ul class="nav navbar-nav navbar-right">
+             <li><a href="index.html">Home <span class="fa fa-home"></span></a></li>
              <li><a href="aboutus.html">About Us <span class="fa fa-address-book-o"></span></a></li>
              <li><a href="contactus.html">Contact us <span class="fa fa-phone"></span></a></li>
          </ul>
@@ -51,13 +52,30 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" style="background-image: url(img/apple_19-wallpaper-1280x1024.jpg);">
       <div class="container">
-        <h1 style="color: rgb(150, 171, 233);"><b>Contact Us</b><span class="fa fa-spin fa-spinner"></span></h1>
+        <h1 style="color: rgb(150, 171, 233);"><b>Contact Us</b> <span class="fa fa-phone" style="color: tomato;"></span></h1>
       </div>
     </div>
-        <div><p class="book" style="color: rgb(5, 5, 5);"><b>To place your order or book wonderful designer suites call us on 08103148469</b></p></div>
+        <div><p class="book" style="color: rgb(228, 218, 218); background-color: rgb(42, 42, 73); border-radius: 10px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center; font-size: 18px;" ><b>To place your order or book wonderful designer suites call us on 08103148469 or email us at gitsuites@gmail.com</b> </p></div>
 
-
+    <h4 style="text-align: center; color: rgb(160, 159, 158);">Want us to mail you with our latest collections? Leave us with your name, email and phone number</h4>
     
+    <form class="container" style="color:  rgb(160, 159, 158);;">
+      <div class="form-group">
+        <label for="examplefullname">Full Name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1">Email Address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="examplephoneNumber">Phone Number</label>
+        <input type="number" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div style="text-align: center;">
+      <button type="submit" class="btn btn-primary" style="margin: 0 auto; width: 300px; border-radius: 30px;" >Submit <span class="fa fa-check"></span></button>
+    </div>
+    </form>
+
 
   <!--Carousel-->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -123,38 +141,36 @@
     <div class="row">
       <div class="col-md-4">
         <h3 style="background-color: rgb(59, 91, 187); border-radius: 20px;">SUPPORT</h3>
-          <ul style="color: #fff; list-style: none;">
-            <li>Help Center</li>
-            <li>Guides</li>
-            <li>Videos</li>
-            <li>Product Updates</li>
-            <li>Status Monitor</li>
-            <li>Contact Support</li>
-          </ul>
+          <p style="color: #fff;">
+            Help Center<br>
+           Guides<br>
+            Videos<br>
+            Product Updates<br>
+           Status Monitor<br>
+            Contact Support
+          </p>
         
       </div>
       <div class="col-md-4">
         <h3  style="background-color: rgb(59, 91, 187); border-radius: 20px;">PRODUCT</h3>
-          <ul style="color: #fff; list-style: none;">
-            <li>Pricing</li>
-            <li>Demo</li>
-            <li>Features</li>
-            <li>Showcases</li>
-            <li>App Market</li>
-            <li>E-commerce hosting</li>
-          </ul>
+            <p style="color: #fff;">Pricing
+            Demo<br>
+            Features<br>
+            Showcases<br>
+            App Market<br>
+            E-commerce hosting
+            </p>
     
      </div>
       <div class="col-md-4">
         <h3  style="background-color: rgb(59, 91, 187); border-radius: 20px;">PARTNERS</h3>
-        <ul style="color: #fff; list-style: none;">
-          <li></li>
-          <li>Referral Program</li>
-          <li>Affiliate Program</li>
-          <li>For resales</li>
-          <li>Developers</li>
-          <li>Git Experts</li>
-        </ul>
+        <p style="color: #fff;">
+          Referral Program<br>
+          Affiliate Program<br>
+         For resales<br>
+        Developers<br>
+         Git Experts
+        </p>
       </div>
     </div>
     <hr>

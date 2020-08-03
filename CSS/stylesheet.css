@@ -37,3 +37,6 @@ body {
   .contact{
     font: 50rem;
   }
+  form{
+    margin-bottom: 3rem;
+  }
